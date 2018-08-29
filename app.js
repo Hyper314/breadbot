@@ -114,6 +114,8 @@ client.on("ready", () => {
   client.user.setUsername("BreadBot");
 });
 
+client.login(process.env.BOT_TOKEN);
+
 client.on("guildCreate", guild => {
   console.log(`New guild joined: ${guild.name} (id: ${guild.id}). This guild has ${guild.memberCount} members!`);
   client.user.setActivity(`i like bread`);
