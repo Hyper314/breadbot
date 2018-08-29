@@ -1,1 +1,1 @@
-worker: node bot.js breadbot
+worker: node app.js breadbot
