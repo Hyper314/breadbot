@@ -213,77 +213,6 @@ client.on("message", async message => {
     message.channel.sendMessage("This bot was created by Hyper314. This bot likes bread. You're welcome.");
   }
 
-  if(command === "bread") {
-    var pic = Math.floor(Math.random() * 32) + 1;
-    if (pic === 32)
-      return message.channel.sendMessage("Sorry, you get salad instead.")
-      else message.channel.sendMessage("Here, have some bread.")
-    if (pic === 1)
-      return message.channel.sendMessage(message.channel.send({files: ["bread1.jpeg"]}))
-    if (pic === 2)
-      return message.channel.sendMessage(message.channel.send({files: ["bread2.jpeg"]}))
-    if (pic === 3)
-      return message.channel.sendMessage(message.channel.send({files: ["bread3.jpeg"]}))
-    if (pic === 4)
-      return message.channel.sendMessage(message.channel.send({files: ["bread4.jpeg"]}))
-    if (pic === 5)
-      return message.channel.sendMessage(message.channel.send({files: ["bread5.jpeg"]}))
-    if (pic === 6)
-      return message.channel.sendMessage(message.channel.send({files: ["bread6.jpeg"]}))
-    if (pic === 7)
-      return message.channel.sendMessage(message.channel.send({files: ["bread7.jpeg"]}))
-    if (pic === 8)
-      return message.channel.sendMessage(message.channel.send({files: ["bread8.jpeg"]}))
-    if (pic === 9)
-      return message.channel.sendMessage(message.channel.send({files: ["bread9.jpeg"]}))
-    if (pic === 10)
-      return message.channel.sendMessage(message.channel.send({files: ["bread10.jpeg"]}))
-    if (pic === 11)
-      return message.channel.sendMessage(message.channel.send({files: ["bread11.jpeg"]}))
-    if (pic === 12)
-      return message.channel.sendMessage(message.channel.send({files: ["bread12.jpeg"]}))
-    if (pic === 13)
-      return message.channel.sendMessage(message.channel.send({files: ["bread13.jpeg"]}))
-    if (pic === 14)
-      return message.channel.sendMessage(message.channel.send({files: ["bread14.jpeg"]}))
-    if (pic === 15)
-      return message.channel.sendMessage(message.channel.send({files: ["bread15.jpeg"]}))
-    if (pic === 16)
-      return message.channel.sendMessage(message.channel.send({files: ["bread16.jpeg"]}))
-    if (pic === 17)
-      return message.channel.sendMessage(message.channel.send({files: ["bread17.jpeg"]}))
-    if (pic === 18)
-      return message.channel.sendMessage(message.channel.send({files: ["bread18.jpeg"]}))
-    if (pic === 19)
-      return message.channel.sendMessage(message.channel.send({files: ["bread19.jpeg"]}))
-    if (pic === 20)
-      return message.channel.sendMessage(message.channel.send({files: ["bread20.jpeg"]}))
-    if (pic === 21)
-      return message.channel.sendMessage(message.channel.send({files: ["bread21.jpeg"]}))
-    if (pic === 22)
-      return message.channel.sendMessage(message.channel.send({files: ["bread22.jpeg"]}))
-    if (pic === 23)
-      return message.channel.sendMessage(message.channel.send({files: ["bread23.jpeg"]}))
-    if (pic === 24)
-      return message.channel.sendMessage(message.channel.send({files: ["bread24.jpeg"]}))
-    if (pic === 25)
-      return message.channel.sendMessage(message.channel.send({files: ["bread25.jpeg"]}))
-    if (pic === 26)
-      return message.channel.sendMessage(message.channel.send({files: ["bread26.jpeg"]}))
-    if (pic === 27)
-      return message.channel.sendMessage(message.channel.send({files: ["bread27.jpeg"]}))
-    if (pic === 28)
-      return message.channel.sendMessage(message.channel.send({files: ["bread28.jpeg"]}))
-    if (pic === 29)
-      return message.channel.sendMessage(message.channel.send({files: ["bread29.jpeg"]}))
-    if (pic === 30)
-      return message.channel.sendMessage(message.channel.send({files: ["bread30.jpeg"]}))
-    if (pic === 31)
-      return message.channel.sendMessage(message.channel.send({files: ["bread31.jpeg"]}))
-    if (pic === 32)
-      return message.channel.sendMessage(message.channel.send({files: ["salad.jpeg"]}))
-  }
-
   if(command === "number") {
     const guessnum = parseInt(args[0], 10);
     var botnum =  Math.floor(Math.random() * 10) + 1;
@@ -456,7 +385,7 @@ client.on("message", async message => {
     helplist2 += "__Misc__";
     helplist2 += newLine;
     helplist2 += newLine;
-    helplist2 += "`bread`: Sends a random picture of bread. `example: >bread`";
+    helplist2 += "`bread`: Sends a random picture of bread. `example: >bread` (temporarily disabled)";
     helplist2 += newLine;
     helplist2 += "`givebread`: Gives you some bread. `example: >givebread`";
     helplist2 += newLine;
